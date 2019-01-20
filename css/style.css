@@ -1,0 +1,34 @@
+/**
+ * @description style.css
+ * @author Yang.J
+ * @date 2019-01-17
+ */
+
+ /*== common ==*/
+ 
+
+
+ /*== component ==*/
+ /* topbar */
+ #topbar {height: 44px; background: #333;}
+ #topbar .wrapper {display: flex; width: 1200px; margin: auto; justify-content: space-between;}
+ #topbar .links {display: flex; width: 50%;}
+ #topbar .links-l {justify-content: flex-start; }
+ #topbar .links-r {justify-content: flex-end;}
+ #topbar .links .link {display: block; height: 44px; font-family: "Montserrat Regular", sans-serif; font-size: 13px; line-height: 44px; color: #727272;}
+ #topbar .links-l .link {margin-right: 36px;}
+ #topbar .links-r .link {margin-left: 36px;}
+ #topbar .links .link.has-child::after {content: ""; display: inline-block; width: 5px; height: 5px; border: 1px solid #727272; border-top: none; border-right: none; transform: rotate(-45deg); margin-left: 9px; margin-bottom: 6px; vertical-align: middle;}
+ #topbar .links .link.link-cart {width: 147px; background: #00c8c8; text-align: center; color: white;}
+ #topbar .links .link.link-cart::after {border-color: #fff;}
+ #topbar .links .link.link-cart::before {content: ""; display: inline-block; width: 20px; height: 17px; background: url(../img/icon_cart.png); margin-right: 24px; vertical-align: middle;}
+
+ /* .topbar .topbar-list ul {display: flex; flex-flow: row nowrap; justify-content: space-between;}
+ .topbar .topbar-list ul li {margin-top: 13px; display: flex; justify-content: flex-end;}
+ .topbar .topbar-list ul li, .topbar .topbar-list ul li a {color: #727272; font-size: 13px; line-height: 21px; font-family: "Montserrat Regular", sans-serif; }
+ .topbar .topbar-list ul li , .topbar .topbar-list ul li div em {font-style: normal; position: relative;}
+ .topbar .topbar-list ul li em::after, .topbar .topbar-list ul li div em::after {content: ""; width: 5px; height: 5px; display: inline-block; border-style: solid; border-width: 1px; border-color: #727272; transform: rotate(45deg); border-top: none; border-left: none; position: absolute; left: 37px; top: 5px;}
+ .topbar .topbar-list ul li div em::after {left: 50px;}
+ .topbar .topbar-list ul li div em::before {content: ""; background-image: url(../img/icon_cart.png); display: inline-block; width: 20px; height: 17px; background-color: transparent; position: absolute; right: 60px; top: 1px;} */
+
+ /*=== layout ==*/
